@@ -18,5 +18,4 @@ def goes_right_after(word, first, second):
             return False
     else:
         return False
-    
-print(goes_right_after("world", "w", "o"))
+    ...

@@ -20,9 +20,4 @@ def between_markers(text, start, end):
         return text
     ...
 
-assert between_markers("What is >apple<", ">", "<") == "apple"
-assert between_markers("What is [apple]", "[", "]") == "apple"
-assert between_markers("What is ><", ">", "<") == ""
-assert between_markers("[an apple]", "[", "]") == "an apple"
 
-print("The mission is done! Click 'Check Solution' to earn rewards!")

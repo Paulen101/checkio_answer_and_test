@@ -12,4 +12,3 @@ def max_digit(value):
     else:
         return int(max(str(value)))
     ...
-print(max_digit(0))
