@@ -22,11 +22,3 @@ def goes_after(word, first, second):
         return False
     ...
     
-
-
-assert goes_after('almaz', 'm', 'a') == False
-assert goes_after('world', 'w', 'o') == True
-assert goes_after('world', 'w', 'r') == False
-assert goes_after('world', 'l', 'o') == False
-
-print("Coding complete? Click 'Check' to earn cool rewards!")
