@@ -14,7 +14,10 @@ a.append(4) # b is also changed
 
 # print(s2)
 
-a = [1, 2, 3]
-# print(*a, sep = "\n")
+# a = [1, 2, 3]
+# # print(*a, sep = "\n")
 
-print(a[4])
+# print(a[4])
+
+
+print(3//4)
