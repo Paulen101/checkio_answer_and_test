@@ -14,4 +14,9 @@ turtle.left(120)
 turtle.color('blue')
 turtle.end_fill()
 turtle.exitonclick()
+a, b = 1, 2
+if a | b > 0:
+    print('a or b is greater than 0')
+
+
 
