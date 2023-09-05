@@ -7,4 +7,3 @@ def test_checkio():
     
 if __name__ == "__main__":
     test_checkio()
-    print("Everything passed")

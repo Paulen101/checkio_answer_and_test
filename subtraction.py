@@ -14,4 +14,3 @@ def subtraction(num1, num2):
     else:
         print("You got it!")
     
-subtraction(num1, num2)
