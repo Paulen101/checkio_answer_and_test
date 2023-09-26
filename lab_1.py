@@ -1,8 +1,11 @@
-i = 5
-while i >= 1: 
-    num = 1
-    for j in range (1, i - 1): 
-        print(num, end = "H")
-        num *= 2
-    print()
-    i -= 1
+def main(): 
+    x = 1
+    print(x)
+    x = increment(x)
+    print(x)
+
+def increment(n):
+    n += 1
+    return n   
+
+main()
